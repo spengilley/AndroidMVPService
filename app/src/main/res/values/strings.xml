@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidMVPService</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro_title">This is an intro. The parent Activity has already requested that our LocationService starts requesting updates. The request was via the MainPresenter class, which in turn called methods on an Interface so that the Presenter doesn\'t directly talk to the Service. This is so that our Presenter remains Android code free</string>
+    <string name="open_location_button">Open Location Fragment</string>
+    <string name="coords_default_text">Location updates will appear here</string>
+
+</resources>
